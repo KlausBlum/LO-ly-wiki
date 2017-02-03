@@ -3,6 +3,7 @@ Download the latest version:
 ## Development
 
 * [OOoLilyPond 0.4.2rc7 ](http://joramberger.de/files/ooolilypond-0.4.2rc7.oxt)
+* [OOoLilyPond 0.4.2rc7-de](http://joramberger.de/files/ooolilypond-0.4.2rc7-de.oxt)
 
 ## Releases
 
