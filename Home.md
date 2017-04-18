@@ -15,6 +15,8 @@ and then choosing the downloaded extension file (.oxt).
 
 Your toolbars in Writer, Impress and Draw should now have a new "OLy" button which launches the extension.
 
+You can find a detailed [Introduction into OOoLilyPond], its installation and usage in the LilyPond blog website [Scores of Beauty].
+
 ## Usage
 
 [LilyPond] is a powerful musical typesetting software that compiles given source code into graphical output, just like LaTeX does with mathematical formulas. 
@@ -42,6 +44,8 @@ Older snippets created with OLy 0.3.x will also work with 0.4.x and 0.5.x, but n
 [LilyPond]: http://lilypond.org
 [download]: https://github.com/openlilylib/LO-ly/wiki/Downloads
 [introduction]: http://lilypond.org/introduction.html
+[Introduction into OOoLilyPond]: http://lilypondblog.org/2017/04/ooolilypond-creating-musical-snippets-in-libreoffice-documents/
+[Scores of Beauty]: http://lilypondblog.org/
 
 ## Authors
 
