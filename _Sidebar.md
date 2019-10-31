@@ -2,6 +2,8 @@
 
 [Options](https://github.com/openlilylib/LO-ly/wiki/Options#options)
 
++ [Paths, executables etc.](https://github.com/openlilylib/LO-ly/wiki/Options#paths-executables-etc)
+    - [Ext. PDF to SVG conversion](https://github.com/openlilylib/LO-ly/wiki/Options#external-pdf-to-svg-conversion-command)
 + [Format](https://github.com/openlilylib/LO-ly/wiki/Options#format)
     - [PNG](https://github.com/openlilylib/LO-ly/wiki/Options#png)
     - [EPS](https://github.com/openlilylib/LO-ly/wiki/Options#eps)
