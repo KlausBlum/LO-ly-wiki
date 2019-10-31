@@ -1,4 +1,4 @@
-Home
+[Home](https://github.com/openlilylib/LO-ly/wiki)
 
 Options
 
@@ -8,4 +8,4 @@ Options
     - SVG
     - PDF to SVG
 
-Download
+[Download](https://github.com/openlilylib/LO-ly/wiki/Downloads)
