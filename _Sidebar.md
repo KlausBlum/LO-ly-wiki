@@ -1,6 +1,6 @@
 [Home](https://github.com/openlilylib/LO-ly/wiki)
 
-[Options](https://github.com/openlilylib/LO-ly/wiki/Options/_edit#options)
+[Options](https://github.com/openlilylib/LO-ly/wiki/Options#options)
 
 + [Format](https://github.com/openlilylib/LO-ly/wiki/Options#format)
     - [PNG](https://github.com/openlilylib/LO-ly/wiki/Options#png)
