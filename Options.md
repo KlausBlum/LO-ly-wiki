@@ -1,5 +1,9 @@
 # Options
 
+## Paths, executables etc.
+
+### External PDF to SVG conversion command
+
 (WIP)
 
 ## Format
