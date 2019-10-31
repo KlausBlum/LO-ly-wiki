@@ -1,13 +1,13 @@
 [Home](https://github.com/openlilylib/LO-ly/wiki)
 
-[Options](https://github.com/openlilylib/LO-ly/wiki/Options#options)
+[Config](https://github.com/openlilylib/LO-ly/wiki/Options#options)
 
-+ [Paths, executables etc.](https://github.com/openlilylib/LO-ly/wiki/Options#paths-executables-etc)
-    - [Ext. PDF to SVG conv.](https://github.com/openlilylib/LO-ly/wiki/Options#external-pdf-to-svg-conversion-command)
-+ [Format](https://github.com/openlilylib/LO-ly/wiki/Options#format)
-    - [PNG](https://github.com/openlilylib/LO-ly/wiki/Options#png)
-    - [EPS](https://github.com/openlilylib/LO-ly/wiki/Options#eps)
-    - [SVG](https://github.com/openlilylib/LO-ly/wiki/Options#svg)
-    - [PDF to SVG](https://github.com/openlilylib/LO-ly/wiki/Options#pdf-to-svg)
++ [Paths, executables etc.](https://github.com/openlilylib/LO-ly/wiki/Config#paths-executables-etc)
+    - [Ext. PDF to SVG conv.](https://github.com/openlilylib/LO-ly/wiki/Config#external-pdf-to-svg-conversion-command)
++ [Format](https://github.com/openlilylib/LO-ly/wiki/Config#format)
+    - [PNG](https://github.com/openlilylib/LO-ly/wiki/Config#png)
+    - [EPS](https://github.com/openlilylib/LO-ly/wiki/Config#eps)
+    - [SVG](https://github.com/openlilylib/LO-ly/wiki/Config#svg)
+    - [PDF to SVG](https://github.com/openlilylib/LO-ly/wiki/Config#pdf-to-svg)
 
 [Download](https://github.com/openlilylib/LO-ly/wiki/Downloads)
