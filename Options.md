@@ -44,3 +44,12 @@ Currently, OLy supports the following formats:
 
 **-**  only usable in LibreOffice (not in OpenOffice)
 
+### PNG
+
+### EPS
+
+### SVG
+
+### PDF to SVG
+
+
