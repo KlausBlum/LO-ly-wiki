@@ -1,6 +1,6 @@
 This page is heavily under construction!  ;-)
 
-# Config
+# Configuration dialogue
 
 This dialogue window offers the settings to customize OLy to your needs.
 
@@ -25,7 +25,7 @@ Currently, OLy supports the following formats:
 **[EPS](https://github.com/openlilylib/LO-ly/wiki/Config#eps)**
 * `+` good image quality (vector format)
 * `-`  only usable in OpenOffice (not in LibreOffice)
-* `-`  images are not displayed on screen (only in printout and PDF export).
+* `-`  images are not displayed on screen (only in printout).
 
 **[SVG](https://github.com/openlilylib/LO-ly/wiki/Config#svg)**
 * `+` good image quality (vector format)
@@ -41,9 +41,14 @@ Currently, OLy supports the following formats:
 
 ### PNG
 
-This file format is used by default, because it works equally in LibreOffice and OpenOffice, on Windows, Linux or Mac. However, it's not the best choice with regard to image quality: [File formats: bitmap vs. vector](https://github.com/openlilylib/LO-ly/wiki/File-formats:-bitmap-vs.-vector)
+This file format is used by default, because it works equally in LibreOffice and OpenOffice, on Windows, Linux or Mac. However, it's not the best choice with regard to image quality: [File formats - bitmap vs. vector](https://github.com/openlilylib/LO-ly/wiki/File-formats:-bitmap-vs.-vector)
 
 ### EPS
+At the moment, EPS is the only vector format available for OpenOffice. LibreOffice cannot handle it. 
+
+EPS images are printed correctly, but OpenOffice does not display them on screen. It's helpful to use PNG format at first. Once the musical snippets look as indended, they can be recompiled using the EPS format.
+
+EPS images also are missing in PDF export. At least on Windows, there is a workaround for that: Printing the document with a "print to pdf" driver leads to correct results. 
 
 ### SVG
 
