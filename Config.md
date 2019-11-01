@@ -1,6 +1,8 @@
 This page is heavily under construction!  ;-)
 
-# Options
+# Config
+
+This dialogue window offers the settings to customize OLy to your needs.
 
 ## Paths, executables etc.
 
@@ -57,5 +59,28 @@ Currently, OLy supports the following formats:
 ### SVG
 
 ### PDF to SVG
+With this option selected, OLy will call LilyPond to produce a PDF file. 
+Unlike with the SVG option, this works with any template, no restrictions apply. 
+Also, no additional fonts have to be installed. 
 
+However, as a second step, this PDF file has to be converted into an SVG file which then will be inserted into your LO document. 
+That means, you will have to install an additional conversion software and specify the exact command line to be called. 
 
+**For Linux and Mac**, this is easy: You can install the "pdf2svg" package via your package manager. 
+
+The default settings for the command line to be called should already be visible. 
+
+The resulting command line will look similar to this (replace "klaus" with your actual user name): 
+
+`pdf2svg "/home/klaus/.cache/ooolilypond/tmp/OOoLilyPond.pdf" OOoLilyPond.svg`
+
+The filename OOoLilyPond.pdf preceeded by the correct path (without quotation marks) will be inserted by OLy, so you have
+`pdf2svg "`
+(notice the quotation mark at the end) as first part and
+`"`
+(only the quotation mark)
+as second part of the command. 
+
+You will already find this as default settings in your config dialogue.
+
+**For Windows**, 
