@@ -1,5 +1,7 @@
 [Home](https://github.com/openlilylib/LO-ly/wiki)
 
+[Download](https://github.com/openlilylib/LO-ly/wiki/Downloads)
+
 [Config](https://github.com/openlilylib/LO-ly/wiki/Options#options)
 
 + [Paths, executables etc.](https://github.com/openlilylib/LO-ly/wiki/Config#paths-executables-etc)
@@ -9,5 +11,3 @@
     - [EPS](https://github.com/openlilylib/LO-ly/wiki/Config#eps)
     - [SVG](https://github.com/openlilylib/LO-ly/wiki/Config#svg)
     - [PDF to SVG](https://github.com/openlilylib/LO-ly/wiki/Config#pdf-to-svg)
-
-[Download](https://github.com/openlilylib/LO-ly/wiki/Downloads)
