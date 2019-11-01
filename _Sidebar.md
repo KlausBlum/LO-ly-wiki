@@ -10,3 +10,5 @@
     - [EPS](https://github.com/openlilylib/LO-ly/wiki/Config#eps)
     - [SVG](https://github.com/openlilylib/LO-ly/wiki/Config#svg)
     - [PDF to SVG](https://github.com/openlilylib/LO-ly/wiki/Config#pdf-to-svg)
+
+[File formats: bitmap vs. vector](https://github.com/openlilylib/LO-ly/wiki/File-formats:-bitmap-vs.-vector)
