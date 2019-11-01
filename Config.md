@@ -19,42 +19,29 @@ Each format has its specific advantages and disadvantages.
 Currently, OLy supports the following formats: 
 
 **[PNG](https://github.com/openlilylib/LO-ly/wiki/Config#png)**
-
-**+** works immediately, no further preparations required
-
-**-**  being a bitmap format, image quality is limited. 
+* `+` works immediately, no further preparations required
+* `-`  being a bitmap format, image quality is limited. 
 
 **[EPS](https://github.com/openlilylib/LO-ly/wiki/Config#eps)**
-
-**+** good image quality (vector format)
-
-**-**  only usable in OpenOffice (not in LibreOffice)
-
-**-**  images are not displayed on screen (only in printout and PDF export).
+* `+` good image quality (vector format)
+* `-`  only usable in OpenOffice (not in LibreOffice)
+* `-`  images are not displayed on screen (only in printout and PDF export).
 
 **[SVG](https://github.com/openlilylib/LO-ly/wiki/Config#svg)**
-
-**+** good image quality (vector format)
-
-**+** displayed on screen (although there is a bug in LO as of version 6.2 that prevents correct preview at smaller zoom levels)
-
-**-**  only usable in LibreOffice (not in OpenOffice)
-
-**-**  numerous preparations required (dedicated SVG templates, further editing, installing additional fonts)
+* `+` good image quality (vector format)
+* `+` displayed on screen (although there is a bug in LO as of version 6.2 that prevents correct preview at smaller zoom levels)
+* `-`  only usable in LibreOffice (not in OpenOffice)
+* `-`  numerous preparations required (dedicated SVG templates, further editing, installing additional fonts)
 
 **[PDF to SVG](https://github.com/openlilylib/LO-ly/wiki/Config#pdf-to-svg)** (recommended)
-
-(PDF output from LilyPond, externally converted to SVG format for import into LibreOffice)
-
-**+** good image quality (vector format)
-
-**+** no dedicated templates and no additional fonts required
-
-**-**  requires third-party conversion software
-
-**-**  only usable in LibreOffice (not in OpenOffice)
+* `+` good image quality (vector format)
+* `+` no dedicated templates and no additional fonts required
+* `-`  requires third-party conversion software
+* `-`  only usable in LibreOffice (not in OpenOffice)
 
 ### PNG
+
+This file format is used by default, because it works equally in LibreOffice and OpenOffice, on Windows, Linux or Mac. However, it's not the best choice with regard to image quality: [File formats: bitmap vs. vector](https://github.com/openlilylib/LO-ly/wiki/File-formats:-bitmap-vs.-vector)
 
 ### EPS
 
