@@ -42,7 +42,7 @@ Currently, OLy supports the following formats:
 
 **-**  numerous preparations required (dedicated SVG templates, further editing, installing additional fonts)
 
-**PDF to SVG**
+**PDF to SVG** (recommended)
 
 (PDF output from LilyPond, externally converted to SVG format for import into LibreOffice)
 
