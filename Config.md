@@ -83,4 +83,30 @@ as second part of the command.
 
 You will already find this as default settings in your config dialogue.
 
-**For Windows**, 
+**For Windows**, a suitable third-party tool has to be installed at your own risk. 
+At the moment, the only one I know of can be found here: 
+
+http://blog.alivate.com.au/poppler-windows/
+
+Direct download: http://blog.alivate.com.au/wp-content/uploads/2018/10/poppler-0.68.0_x86.7z
+
+(While I don't know if I should recommend a software I barely know, all I can say is, I've tried it and to me it performs allright.) 
+
+There is no installation, you just unpack its contents to a location of your choice (for example `C:\Portable\`).
+In my case ("Klaus" is my user name) the resulting command line is:
+
+`"C:\Portable\poppler-0.68.0\bin\pdftocairo.exe" -svg "C:\Users\Klaus\AppData\Local\Temp\OOoLilyPond.pdf"`
+
+As above, OLy inserts the PDF file name including path. 
+Hence the first part reads
+
+`"C:\Portable\poppler-0.68.0\bin\pdftocairo.exe" -svg "`
+(again, notice the quotation marks, eventually adapt the path to the location you've chosen above)
+
+and the second part is just 
+`"`
+(only the quotation mark).
+
+That's it. 
+
+If you know any other tools for that conversion task, I'd be happy to mention them here. 
