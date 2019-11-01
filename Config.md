@@ -8,7 +8,9 @@ This dialogue window offers the settings to customize OLy to your needs.
 
 ### External PDF to SVG conversion command
 
-(WIP)
+As of Version 0.5.11, OLy supports calling an external PDF-to-SVG conversion software. Its command line can be configured here. 
+
+A detailed explanation can be found in the [PDF to SVG section](https://github.com/openlilylib/LO-ly/wiki/Config#pdf-to-svg) of this page. 
 
 ## Format
 
@@ -59,6 +61,8 @@ Currently, OLy supports the following formats:
 ### SVG
 
 ### PDF to SVG
+(This feature is available as of OLy v. 0.5.11)
+
 With this option selected, OLy will call LilyPond to produce a PDF file. 
 Unlike with the SVG option, this works with any template, no restrictions apply. 
 Also, no additional fonts have to be installed. 
