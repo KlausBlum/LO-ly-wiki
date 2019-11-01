@@ -18,13 +18,13 @@ This dropdown box lets you choose which graphic file format OLy will use to inse
 Each format has its specific advantages and disadvantages. 
 Currently, OLy supports the following formats: 
 
-**PNG**
+**[PNG](https://github.com/openlilylib/LO-ly/wiki/Config#png)**
 
 **+** works immediately, no further preparations required
 
 **-**  being a bitmap format, image quality is limited. 
 
-**EPS**
+**[EPS](https://github.com/openlilylib/LO-ly/wiki/Config#eps)**
 
 **+** good image quality (vector format)
 
@@ -32,7 +32,7 @@ Currently, OLy supports the following formats:
 
 **-**  images are not displayed on screen (only in printout and PDF export).
 
-**SVG**
+**[SVG](https://github.com/openlilylib/LO-ly/wiki/Config#svg)**
 
 **+** good image quality (vector format)
 
@@ -42,7 +42,7 @@ Currently, OLy supports the following formats:
 
 **-**  numerous preparations required (dedicated SVG templates, further editing, installing additional fonts)
 
-**PDF to SVG** (recommended)
+**[PDF to SVG](https://github.com/openlilylib/LO-ly/wiki/Config#pdf-to-svg)** (recommended)
 
 (PDF output from LilyPond, externally converted to SVG format for import into LibreOffice)
 
@@ -65,7 +65,7 @@ Currently, OLy supports the following formats:
 
 With this option selected, OLy will call LilyPond to produce a PDF file. 
 Unlike with the SVG option, this works with any template, no restrictions apply. 
-Also, no additional fonts have to be installed. 
+Also, no additional fonts have to be installed. _Therefore, this is the file format I'd currently recommend to choose._
 
 However, as a second step, this PDF file has to be converted into an SVG file which then will be inserted into your LO document. 
 That means, you will have to install an additional conversion software and specify the exact command line to be called. 
