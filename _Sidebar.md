@@ -1,6 +1,6 @@
 [Home](https://github.com/openlilylib/LO-ly/wiki)
 
-[Download](https://github.com/openlilylib/LO-ly/wiki/Downloads)
+[Download](https://github.com/openlilylib/LO-ly/wiki/Downloads#downloads)
 
 [Configuration dialogue](https://github.com/openlilylib/LO-ly/wiki/Config#configuration-dialogue)
 + [Paths, executables etc.](https://github.com/openlilylib/LO-ly/wiki/Config#paths-executables-etc)
