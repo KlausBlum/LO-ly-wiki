@@ -41,7 +41,10 @@ Currently, OLy supports the following formats:
 
 ### PNG
 
-This file format is used by default, because it works equally in LibreOffice and OpenOffice, on Windows, Linux or Mac. However, it's not the best choice with regard to image quality: [File formats - bitmap vs. vector](https://github.com/openlilylib/LO-ly/wiki/File-formats:-bitmap-vs.-vector)
+This file format is used by default, because it works equally in LibreOffice and OpenOffice, on Windows, Linux or Mac. 
+No additional steps have to be taken before using it. 
+
+However, it's not the best choice with regard to image quality: [File formats - bitmap vs. vector](https://github.com/openlilylib/LO-ly/wiki/File-formats:-bitmap-vs.-vector)
 
 ### EPS
 At the moment, EPS is the only vector format available for OpenOffice. LibreOffice cannot handle it. 
@@ -51,6 +54,9 @@ EPS images are printed correctly, but OpenOffice does not display them on screen
 EPS images also are missing in PDF export. At least on Windows, there is a workaround for that: Printing the document with a "print to pdf" driver leads to correct results. 
 
 ### SVG
+This file format is only supported by LibreOffice (and not by OpenOffice). 
+Using it also requires two important preparations that are described in detail here: 
+[SVG requirements](https://github.com/openlilylib/LO-ly/wiki/SVG-requirements).
 
 ### PDF to SVG
 (This feature is available as of OLy v. 0.5.11)
