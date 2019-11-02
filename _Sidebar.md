@@ -2,7 +2,7 @@
 
 [Download](https://github.com/openlilylib/LO-ly/wiki/Downloads)
 
-[Config](https://github.com/openlilylib/LO-ly/wiki/Options#options)
+[Configuration dialogue](https://github.com/openlilylib/LO-ly/wiki/Config)
 + [Paths, executables etc.](https://github.com/openlilylib/LO-ly/wiki/Config#paths-executables-etc)
     - [Ext. PDF to SVG conv.](https://github.com/openlilylib/LO-ly/wiki/Config#external-pdf-to-svg-conversion-command)
 + [Format](https://github.com/openlilylib/LO-ly/wiki/Config#format)
