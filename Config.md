@@ -39,7 +39,7 @@ For example, if I need to specify two paths <code>C:\Users\Klaus\Documents\MySco
 
 In addition, OLy will automatically look for include files in the folder where your LibreOffice document is located.
 
-### Language File Path
+### Language file path
 
 The path where OLy looks for [language files](https://github.com/openlilylib/LO-ly/wiki/Config/_edit#language-file). Usually, there is no need to change the default setting. 
 
