@@ -51,6 +51,7 @@ inside your LilyPond program folder (typically <code>C:\Program Files (x86)\Lily
 Which font files are we looking for? That depends on your LilyPond version.
 
 <strong>Version 2.18.2 and earlier</strong>
+
 According to the <a href="http://lilypond.org/doc/v2.18/Documentation/notation/fonts.html">2.18 Notation Reference</a>, the <em>roman</em> (serif) font defaults to "New Century Schoolbook".
 Well, to be exact, it's the four files <code>CenturySchL-Bold.otf</code>, <code>CenturySchL-BoldItal.otf</code>, <code>CenturySchL-Ital.otf</code> and <code>CenturySchL-Roma.otf</code> which will show up as "Century Schoolbook L" font family.
 
@@ -59,6 +60,7 @@ Installing those four font files on your system might do the trick. On <strong>L
 In addition, the <a href="http://lilypond.org/doc/v2.18/Documentation/notation/fonts.html">2.18 Notation Reference</a> tells that there are no default fonts for <em>sans</em> and <em>typewriter</em>, so different computers will produce different output. If you want to take precautions against that, also continue reading.
 
 <strong>Version 2.19</strong>
+
 In the <a href="http://lilypond.org/doc/v2.19/Documentation/notation/fonts.html">2.19 Notation Reference</a> you can see that LilyPond now provides fonts for all three font families: <em>roman</em>, <em>sans</em> and <em>typewriter</em> now default to "TeXGyreSchola", "TeXGyreHeros" and "TeXGyreCursor".
 The first thing to do is installing them. Therefore, in your <code>otf</code> folder shown above, locate twelve files matching <code>texgyre*.otf</code> and install them on your computer. They seem to work without problems, even on Windows. ;-)
 
