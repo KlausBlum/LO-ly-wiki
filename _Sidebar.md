@@ -1,4 +1,4 @@
-[Home](https://github.com/openlilylib/LO-ly/wiki)
+[Home](https://github.com/openlilylib/LO-ly/wiki#ooolilypond)
 
 [Download](https://github.com/openlilylib/LO-ly/wiki/Downloads#downloads)
 
