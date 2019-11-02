@@ -56,7 +56,7 @@ EPS images also are missing in PDF export. At least on Windows, there is a worka
 ### SVG
 This file format is only supported by LibreOffice (and not by OpenOffice). 
 Using it also requires two important preparations that are described in detail here: 
-[SVG requirements](https://github.com/openlilylib/LO-ly/wiki/SVG-requirements).
+[SVG requirements](https://github.com/openlilylib/LO-ly/wiki/SVG-requirements#svg-requirements).
 
 ### PDF to SVG
 (This feature is available as of OLy v. 0.5.11)
