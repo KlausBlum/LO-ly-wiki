@@ -1,5 +1,7 @@
 # Downloads
 
+All downloads including release notes can also be found on the [Release page](https://github.com/openlilylib/LO-ly/releases).
+
 ## Download the latest version:
 
 * [OOoLilyPond 0.5.10](https://github.com/openlilylib/LO-ly/releases/download/0.5.10/OOoLilyPond-0.5.10.oxt)
@@ -23,3 +25,5 @@
 * [OOoLilyPond 0.4.2rc7 ](http://joramberger.de/files/ooolilypond-0.4.2rc7.oxt)
 * [OOoLilyPond 0.4.2rc7-de](http://joramberger.de/files/ooolilypond-0.4.2rc7-de.oxt)
 * [OOoLilyPond 0.4.1rc1](http://www.hartmann-weine.ch/OOoLilyPond-0.4.1rc1.oxt)
+
+See the complete [Version history](https://github.com/openlilylib/LO-ly/blob/master/Version%20history.txt).
