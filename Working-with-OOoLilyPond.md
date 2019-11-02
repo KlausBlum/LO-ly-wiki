@@ -31,7 +31,7 @@ At the right bottom, click "OK" to apply the settings and close the dialog. Now 
 In the background, LilyPond is now translating the code into a <code>*.png</code> graphic file which will be inserted into Writer. The code itself is invisibly saved inside the document.
 
 After a few seconds, the editor window should disappear, and a newly created image should show up.
-<h2>How to work with it</h2>
+<h2>How to work with OLy</h2>
 If you want to modify an existing OLy object, click on it to select it in Writer. Then, hit the "OLy" button.
 
 <a href="http://lilypondblog.org/wp-content/uploads/2017/03/OLy-Editor-Window-02-1.gif"><img class="aligncenter wp-image-4674 size-medium" src="http://lilypondblog.org/wp-content/uploads/2017/03/OLy-Editor-Window-02-1-300x276.gif" width="300" height="276" /></a>
