@@ -12,3 +12,5 @@
     - [PDF to SVG](https://github.com/openlilylib/LO-ly/wiki/Config#pdf-to-svg)
 
 [File formats: bitmap vs. vector](https://github.com/openlilylib/LO-ly/wiki/File-formats:-bitmap-vs.-vector)
+
+[SVG requirements](https://github.com/openlilylib/LO-ly/wiki/SVG-requirements)
