@@ -4,7 +4,42 @@ This page is heavily under construction!  ;-)
 
 This dialogue window offers the settings to customize OLy to your needs.
 
+### Language file
+
+The language of the user interface can be changed by selecting a language file in the <em>Config</em> dialog.
+
+<a href="http://lilypondblog.org/wp-content/uploads/2017/04/OLy02-Language01.gif"><img src="http://lilypondblog.org/wp-content/uploads/2017/04/OLy02-Language01-300x297.gif" alt="OLy02-Language01" class="aligncenter size-medium wp-image-4790" width="300" height="297"></a>
+
+At the moment, English, French and German are available, and we have a partial translation into Spanish. OLy will offer you all files that it can find in the [language file path](https://github.com/openlilylib/LO-ly/wiki/Config/_edit#language-file-path) (its location can be found below in the <em>Config</em> dialog). Those language files contain all the strings that OLy needs for dialogs and messages.
+
+In case you think that your native language is missing here, and you feel like contributing some work, you can translate one of [those files](https://github.com/openlilylib/LO-ly/tree/master/extension/Language) into your language. They contain some helpful comments (that don't need to be translated), so you will easily find your way.
+If you are interested in doing such a work, you can contact me via <a href="http://lilypond.1069038.n5.nabble.com/user/SendEmail.jtp?type=user&amp;user=4585">lilypond.1069038.n5.nabble.com/user/SendEmail.jtp?type=user&amp;user=4585</a> or open an [issue](https://github.com/openlilylib/LO-ly/issues) here on GitHub.
+
+### Editor font name & size
+
+Here you can specify what font will be used in the editor pane of OLy's main window. Unfortunately, LibreOffice does not offer a dialogue to comfortably choose fonts. However, you can use the dropdown box in LibreOffice Writer to choose a font and copy-paste its name here. 
+
 ## Paths, executables etc.
+
+### Include statement(s)
+
+Despite being designed for "small" snippets that don't exceed one page, OLy can be used for demanding tasks.
+
+Using <a href="http://lilypond.org/doc/v2.19/Documentation/notation/including-lilypond-files.de.html">include files</a> helps keeping your main LilyPond file clear and comprehensible. If you have definitions for functions or variables that you use in multiple LilyPond documents, it's always a good option to have them in a separate include file. For example, <em><a href="https://github.com/openlilylib">openLilyLib</a></em> entirely relies on include files.
+
+When including a file that is <em>not</em> located in the same folder as the main <code>.ly</code> file (or in one of LilyPond's default folders), its path must be specified. Apart from providing the absolute path in every include statement, there is a more elegant solution: LilyPond allows to specify a list of folders where it looks for include files. IDEs like Frescobaldi make use of that option.
+
+In the OLy Config dialog, you can specify a string containing one or more of such paths. That string may contain one or multiple include statements as described in the <a href="http://lilypond.org/doc/v2.18/Documentation/usage/command_002dline-usage#basic-command-line-options-for-lilypond">LilyPond usage manual</a>: <code>-I"<em>path</em>"</code>
+
+For example, if I need to specify two paths <code>C:\Users\Klaus\Documents\MyScores</code> and <code>D:\MyLibrary</code>, the resulting string reads:
+<code>-I"C:/Users/Klaus/Documents/MyScores/" -I"D:/MyLibrary/</code>
+(Note that LilyPond expects the paths to be written with forward slashes, even in Windows. Don't worry, if you use backward slashes, OLy will replace them for you.)
+
+In addition, OLy will automatically look for include files in the folder where your LibreOffice document is located.
+
+### Language File Path
+
+The path where OLy looks for [language files](https://github.com/openlilylib/LO-ly/wiki/Config/_edit#language-file). Usually, there is no need to change the default setting. 
 
 ### External PDF to SVG conversion command
 
