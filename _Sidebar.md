@@ -2,6 +2,13 @@
 
 [**Download**](https://github.com/openlilylib/LO-ly/wiki/Downloads#downloads)
 
+[**Installation**](https://github.com/openlilylib/LO-ly/wiki/Installation#installation)
+
+[**Working with OOoLilyPond**](https://github.com/openlilylib/LO-ly/wiki/Working-with-OOoLilyPond#working-with-ooolilypond)
++ [Launching for the first time](https://github.com/openlilylib/LO-ly/wiki/Working-with-OOoLilyPond#launching-for-the-first-time)
++ [How to work with OLy](https://github.com/openlilylib/LO-ly/wiki/Working-with-OOoLilyPond#how-to-work-with-oly)
++ [Templates](https://github.com/openlilylib/LO-ly/wiki/Working-with-OOoLilyPond#templates)
+
 [**Configuration dialogue**](https://github.com/openlilylib/LO-ly/wiki/Config#configuration-dialogue)
 + [Appearance](https://github.com/openlilylib/LO-ly/wiki/Config#appearance)
     - [Language file](https://github.com/openlilylib/LO-ly/wiki/Config#language-file)
