@@ -44,7 +44,7 @@ Currently, OLy supports the following formats:
 This file format is used by default, because it works equally in LibreOffice and OpenOffice, on Windows, Linux or Mac. 
 No additional steps have to be taken before using it. 
 
-However, it's not the best choice with regard to image quality: [File formats - bitmap vs. vector](https://github.com/openlilylib/LO-ly/wiki/File-formats:-bitmap-vs.-vector)
+However, it's not the best choice with regard to image quality: [File formats - bitmap vs. vector](https://github.com/openlilylib/LO-ly/wiki/File-formats:-bitmap-vs.-vector#file-formats-bitmap-vs-vector)
 
 ### EPS
 At the moment, EPS is the only vector format available for OpenOffice. LibreOffice cannot handle it. 
