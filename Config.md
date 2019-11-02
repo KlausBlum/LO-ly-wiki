@@ -4,6 +4,8 @@ This page is heavily under construction!  ;-)
 
 This dialogue window offers the settings to customize OLy to your needs.
 
+## Appearance
+
 ### Language file
 
 The language of the user interface can be changed by selecting a language file in the <em>Config</em> dialog.
