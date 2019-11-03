@@ -49,6 +49,21 @@ As of Version 0.5.11, OLy supports calling an external PDF-to-SVG conversion sof
 
 A detailed explanation can be found in the [PDF to SVG section](https://github.com/openlilylib/LO-ly/wiki/Config#pdf-to-svg) of this page. 
 
+### LilyPond Executable
+
+Here you should specify the executable file of your LilyPond installation. With the "Select" button you can use a dialogue window from your OS to pick the right file. 
+
+For **Linux** and **Mac**, a simple `lilypond` without path should be sufficient. 
+
+On a **Windows** system, you need to specify `lilypond.exe` preceeded by its path (probably `C:\Program Files (x86)\LilyPond` on 64-bit Windows or `C:\Program Files\LilyPond` on 32-bit Windows systems). From there, proceed to the sub-folder `\usr\bin`.
+
+### Ignore Warnings
+
+If LilyPond reports errors or warnings during compilation, the OLy window will remain open and will display them. 
+
+By turning on this option, you can suppress warnings. Then, only messages will be shown if they are definitely recognized as errors. However, this also depends on your system language and therefore currently cannot be determined in a safe way. 
+**At the moment, it is recommended to leave this box unchecked.**
+
 ## Format
 
 This dropdown box lets you choose which graphic file format OLy will use to insert musical snippets into your document. 
