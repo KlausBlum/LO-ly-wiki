@@ -35,6 +35,8 @@ If you want to get to know LilyPond, a good place to start is the [introduction]
 
 OOoLilyPond (OLy) works with recent versions of LibreOffice and OpenOffice. Older versions should work as well. It has even been tested with OpenOffice 2.4 without issues. 
 
+Update: Some partial incompatibilities have occured in LibreOffice 6.1.0 to 6.1.4 - see [Issue 22].
+
 Any content (LilyPond code, templates, OLy configuration files) created with/for OLy 0.4.x will work with OLy 0.5.x - and vice versa. (Fully compatible, forward and backward.)
 Older snippets created with OLy 0.3.x will also work with 0.4.x and 0.5.x, but not (necessarily) vice versa.
 
@@ -46,6 +48,7 @@ Older snippets created with OLy 0.3.x will also work with 0.4.x and 0.5.x, but n
 [introduction]: http://lilypond.org/introduction.html
 [Introduction into OOoLilyPond]: http://lilypondblog.org/2017/04/ooolilypond-creating-musical-snippets-in-libreoffice-documents/
 [Scores of Beauty]: http://lilypondblog.org/
+[Issue 22]: https://github.com/openlilylib/LO-ly/issues/22#issuecomment-462500338
 
 ## Authors
 
