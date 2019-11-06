@@ -91,7 +91,9 @@ Below the code view, there is a dropdown field that lets you choose which templa
 When switching the template, the code field always will update to the corresponding default code as long as you haven't made any edits yet. However, this will not happen automatically if you already made any changes. To have your current code replaced anyway, click the "Default Code" checkbox.
 
 The "Edit" button will open a new dialog where you can edit the current template. Optionally, you can save it under a new file name.
-<h1>Easier editing</h1>
+
+## Easier editing
+
 Probably you are used to a particular text editor when working on LilyPond files. Of course you can use it for OLy templates as well. The path to the template files can be found (and changed) in the configuration dialog. Here you can also specify where your text editor's executable file is located. You can use any text editor like Mousepad, Notepad etc., but if you don't yet know <a href="http://frescobaldi.org/">Frescobaldi</a>, you really should give it a try.
 
 Back in the main OLy window, another button might be useful: "Open as temp. file in Ext. Editor". It saves the <em>entire</em> snippet into a <code>*.ly</code> file - not only the contents of the "Code" field, but including the other fields and the "invisible" parts between them. This file is opened in the external editor you've specified before. If you use an IDE like Frescobaldi, you can instantly preview your changes.
