@@ -163,4 +163,4 @@ and the second part is just
 
 That's it. 
 
-If you know any other tools for that conversion task, I'd be happy to mention them here. 
+If you know any other tools for that conversion task, I'd be happy to mention them here. (Inkscape cannot [yet?] be used herefor.)
