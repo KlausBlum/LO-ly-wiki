@@ -8,10 +8,10 @@ The white editor pane at the top offers a simple text editor.
 
 Below the editor pane there are two buttons that support the use of an external code editor (see [Easier editing](https://github.com/openlilylib/LO-ly/wiki/Introduction#easier-editing)):
 
-### Open as temp. file in Ext. Editor
+* ### Open as temp. file in Ext. Editor
 saves the current code into a temporary file which is then opened in the external editor.
 
-### Import from temp. file
+* ### Import from temp. file
 re-imports the contents of the same file back into OLy's editor.
 
 ### Default Code
