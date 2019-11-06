@@ -1,9 +1,12 @@
-# Working with OOoLilyPond
-
-<a href="http://lilypondblog.org/wp-content/uploads/2017/03/OLy-Toolbar-01.gif"><img class="aligncenter size-full wp-image-4673" src="http://lilypondblog.org/wp-content/uploads/2017/03/OLy-Toolbar-01.gif" alt="OLy-Toolbar-01" width="181" height="118" /></a>
+# Introduction
 
 <h2>Launching for the first time</h2>
-Here we go: Create a new Writer document and click the OLy button. (Don't worry if you get some error messages telling you that LilyPond could not be executed. Just click "OK" to close the message boxes. We'll fix that in a moment.)
+
+Here we go: Create a new Writer document and click the OLy button. 
+ 
+<a href="http://lilypondblog.org/wp-content/uploads/2017/03/OLy-Toolbar-01.gif"><img class="aligncenter size-full wp-image-4673" src="http://lilypondblog.org/wp-content/uploads/2017/03/OLy-Toolbar-01.gif" alt="OLy-Toolbar-01" width="181" height="118" /></a>
+
+(Don't worry if you get two message boxes telling you that some folders ("language" and "templates") have been created. Just click "OK" to close the message boxes. Next time they won't show up again.)
 
 Now you should see the OOoLilyPond Editor window.
 
@@ -15,7 +18,7 @@ A new window will pop up:
 
 <a href="http://lilypondblog.org/wp-content/uploads/2017/03/OLy-Config-Window-01.gif"><img class="aligncenter size-medium wp-image-4653" src="http://lilypondblog.org/wp-content/uploads/2017/03/OLy-Config-Window-01-300x297.gif" alt="OLy-Config-Window-01" width="300" height="297" /></a>
 
-Of course, you need to have LilyPond installed on your system. In the "LilyPond Executable" field, you need to specify the executable file for LilyPond. On startup, OLy has tried to guess its correct (default) location. If that didn't work, you already got some error messages.  ;-)
+Of course, you need to have LilyPond installed on your system. In the "LilyPond Executable" field, you need to specify the executable file for LilyPond. On startup, OLy has tried to guess its correct (default) location. If that didn't work, you will have to correct it manually.
 
 For a Windows system, you need to know the program folder (probably <code>C:\Program Files (x86)\LilyPond</code> on 64-bit Windows or <code>C:\Program Files\LilyPond</code> on 32-bit Windows systems).
 In the subfolder <code>\usr\bin\</code> you will find the executable file <code>lilypond.exe</code>.
@@ -26,12 +29,18 @@ On the left side, there are two frames titled "Insert Images". Depending on the 
 
 For the moment, all remaining settings can be left at their default values. In case you've messed up anything, there's also a "Reset to Default" button.
 
-At the right bottom, click "OK" to apply the settings and close the dialog. Now you are back in the main Editor window. It contains some sample code, so just click the "LilyPond" button at the bottom right.
+At the right bottom, click "OK" to apply the settings and close the dialog. 
+
+(If this results in an error message "LilyPond cannot be executed", you should re-open the Config dialog by clicking the "Config" button again and make sure that "LilyPond Executable" provides the correct command.)
+
+<h2>How to work with OLy</h2>
+
+Now you are back in the main Editor window. It contains some sample code, so just click the "LilyPond" button at the bottom right.
 
 In the background, LilyPond is now translating the code into a <code>*.png</code> graphic file which will be inserted into Writer. The code itself is invisibly saved inside the document.
 
 After a few seconds, the editor window should disappear, and a newly created image should show up.
-<h2>How to work with OLy</h2>
+
 If you want to modify an existing OLy object, click on it to select it in Writer. Then, hit the "OLy" button.
 
 <a href="http://lilypondblog.org/wp-content/uploads/2017/03/OLy-Editor-Window-02-1.gif"><img class="aligncenter wp-image-4674 size-medium" src="http://lilypondblog.org/wp-content/uploads/2017/03/OLy-Editor-Window-02-1-300x276.gif" width="300" height="276" /></a>
