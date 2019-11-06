@@ -1,15 +1,15 @@
-[**Home**](https://github.com/openlilylib/LO-ly/wiki#ooolilypond)
+### [**Home**](https://github.com/openlilylib/LO-ly/wiki#ooolilypond)
 
-[**Download**](https://github.com/openlilylib/LO-ly/wiki/Downloads#downloads)
+### [**Download**](https://github.com/openlilylib/LO-ly/wiki/Downloads#downloads)
 
-[**Installation**](https://github.com/openlilylib/LO-ly/wiki/Installation#installation)
+### [**Installation**](https://github.com/openlilylib/LO-ly/wiki/Installation#installation)
 
-[**Introduction**](https://github.com/openlilylib/LO-ly/wiki/Introduction#introduction)
+### [**Introduction**](https://github.com/openlilylib/LO-ly/wiki/Introduction#introduction)
 + [Launching for the first time](https://github.com/openlilylib/LO-ly/wiki/Introduction#launching-for-the-first-time)
 + [How to work with OLy](https://github.com/openlilylib/LO-ly/wiki/Introduction#how-to-work-with-oly)
 + [Templates](https://github.com/openlilylib/LO-ly/wiki/Introduction#templates)
 
-[**Configuration dialogue**](https://github.com/openlilylib/LO-ly/wiki/Config#configuration-dialogue)
+### [**Configuration dialogue**](https://github.com/openlilylib/LO-ly/wiki/Config#configuration-dialogue)
 + [Appearance](https://github.com/openlilylib/LO-ly/wiki/Config#appearance)
     - [Language file](https://github.com/openlilylib/LO-ly/wiki/Config#language-file)
     - [Editor font name & size](https://github.com/openlilylib/LO-ly/wiki/Config#editor-font-name--size)
@@ -25,6 +25,6 @@
     - [SVG](https://github.com/openlilylib/LO-ly/wiki/Config#svg)
     - [PDF to SVG](https://github.com/openlilylib/LO-ly/wiki/Config#pdf-to-svg)
 
-[**File formats: bitmap vs. vector**](https://github.com/openlilylib/LO-ly/wiki/File-formats:-bitmap-vs.-vector#file-formats-bitmap-vs-vector)
+### [**File formats: bitmap vs. vector**](https://github.com/openlilylib/LO-ly/wiki/File-formats:-bitmap-vs.-vector#file-formats-bitmap-vs-vector)
 
-[**SVG requirements**](https://github.com/openlilylib/LO-ly/wiki/SVG-requirements#svg-requirements)
+### [**SVG requirements**](https://github.com/openlilylib/LO-ly/wiki/SVG-requirements#svg-requirements)
