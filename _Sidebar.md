@@ -8,6 +8,7 @@
 + [Launching for the first time](https://github.com/openlilylib/LO-ly/wiki/Introduction#launching-for-the-first-time)
 + [How to work with OLy](https://github.com/openlilylib/LO-ly/wiki/Introduction#how-to-work-with-oly)
 + [Templates](https://github.com/openlilylib/LO-ly/wiki/Introduction#templates)
++ [Easier editing](https://github.com/openlilylib/LO-ly/wiki/Introduction#easier-editing)
 
 ### [**Configuration dialogue**](https://github.com/openlilylib/LO-ly/wiki/Config#configuration-dialogue)
 + [Appearance](https://github.com/openlilylib/LO-ly/wiki/Config#appearance)
