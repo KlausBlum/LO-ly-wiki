@@ -202,7 +202,13 @@ If you know any other tools for that conversion task, I'd be happy to mention th
 
 ## Buttons
 ### Restore Templates
+restores the original templates delivered with OLy. Your actual template files will be backed up in a subfolder, so nothing will be lost if you accidentally hit this button. You can delete that subfolder if you don't need to keep it. 
 
 ### Restore Language files
+restores the original language files delivered with OLy. As above, actual language files are backed up in a subfolder.
+
 ### Reset to Default
+Reset all controls in the configuration dialogue to their built-in default values.
+
 ### OK
+Saves and applies the changes, then closes the dialog.
