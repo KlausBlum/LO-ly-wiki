@@ -1,5 +1,7 @@
 # File formats: bitmap vs. vector
 
+OLy allows you to choose between different [file formats](https://github.com/openlilylib/LO-ly/wiki/Config#format). What reasons are there to switch from PNG files to another format? 
+
 PNG files are easy to handle, but being a bitmap format, they don't offer the best image quality:
 
 <a href="http://lilypondblog.org/wp-content/uploads/2017/04/OLy02-png150-e1491491286329.gif"><img src="http://lilypondblog.org/wp-content/uploads/2017/04/OLy02-png150-e1491491286329-300x254.gif" alt="OLy02 - png150" class="aligncenter size-medium wp-image-4732" width="300" height="254"></a>
@@ -30,4 +32,4 @@ Neither LibreOffice nor OpenOffice can import <code>.ps</code> files.
 
 As a more interesting alternative, there are <code>.svg</code> files which are easily mastered by LibreOffice (not by OpenOffice - another reason to switch to LO). However, using this format with OLy requires two additional actions: Installing some fonts and preparing special templates. This task is explained on a dedicated page: [SVG requirements](https://github.com/openlilylib/LO-ly/wiki/SVG-requirements#svg-requirements).
 
-<code>.pdf</code> images can be imported into LibreOffice, but currently (November 2019) they are hereby converted to bitmap previews - with the quality drawbacks explained above. Now OLy supports calling an external converter to transform LilyPond's <code>.pdf</code> output into an <code>.svg</code> file. The latter can be imported into LibreOffice without further restrictions. If you don't mind installing such a third-party converter, this might be [the preferred option](https://github.com/openlilylib/LO-ly/wiki/Config#pdf-to-svg). 
+<code>.pdf</code> images can be imported into LibreOffice, but currently (November 2019) they are hereby converted to bitmap previews - with the quality drawbacks explained above. Now OLy supports calling an external converter to transform LilyPond's <code>.pdf</code> output into an <code>.svg</code> file. The latter can be imported into LibreOffice without further restrictions. If you don't mind installing such a third-party converter, this might be the preferred option. If you want to make use of it, choose "[pdf to svg]"(https://github.com/openlilylib/LO-ly/wiki/Config#pdf-to-svg) as file format. 
