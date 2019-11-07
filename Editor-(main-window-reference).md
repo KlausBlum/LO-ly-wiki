@@ -48,7 +48,9 @@ Here you can pre-configure how LibreOffice / OpenOffice will treat the resulting
 ## Buttons at the bottom
 ### < (left arrow)
 ### > (right arrow)
-When LilyPond reported errors during compilation, they are displayed at the bottom of the editor window. Use the left / right arrow buttons here to switch to the previous / next error.
+When LilyPond reported errors during compilation, they are displayed at the bottom of the editor window. The blinking cursor will be placed at the location where LilyPond has found an error. 
+
+Use the left / right arrow buttons here to switch to the previous / next error.
 
 ### Ly Output
 Every time LilyPond is called, its command line output will be stored in a file. This button opens a dialogue that display the output from the last time LilyPond has been called. 
