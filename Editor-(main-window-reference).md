@@ -26,7 +26,7 @@ This dropdown box lets you choose a template on which your snippet will be based
 
 Changing the template will complete the editor with the default code from the new template (only if you haven't yet applied changes in the editor pane). 
 
-See [Templates](https://github.com/openlilylib/LO-ly/wiki/Introduction#templates) for more information OLy's template-based concept. 
+(See [Templates](https://github.com/openlilylib/LO-ly/wiki/Introduction#templates) for more information OLy's template-based concept.)
 
 ### Edit
 Clicking this button opens a simple text editor that lets you modify the selected template or create a new one. Attention: Changes will affect every document on your system that uses this template, so be careful! 
@@ -36,11 +36,13 @@ Clicking this button opens a simple text editor that lets you modify the selecte
 * ### Custom 1
 * ### Custom 2
 These four fields provide access to certain sections of the actual template. 
+(See [Templates](https://github.com/openlilylib/LO-ly/wiki/Introduction#templates) for more information OLy's template-based concept.)
 
 The "**Default**" checkboxes below will get unmarked once you apply changes to those fields. Clicking on them brings back the default contents.
 
 ## "Anchor" and "Wrap" options
 (only for Writer documents)
+
 Here you can pre-configure how LibreOffice / OpenOffice will treat the resulting image inside your text document. These options are the same as those you can apply to existing images inside the text.
 
 ## Buttons at the bottom
