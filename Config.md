@@ -4,6 +4,26 @@ This page is heavily under construction!  ;-)
 
 This dialogue window offers the settings to customize OLy to your needs.
 
+## Default values for Writer / for Impress and Draw
+Here you can set the default values for OLy. There are independent settings for Writer and for Impress/Draw.
+
+### Template
+Choose the template that will be selected when creating a new OLy object. 
+
+* ### Line Width
+* ### Staff Size
+Here you can specify default values to be applied for every new OLy object. 
+If the **"From Template"** box is checked, OLy will instead use the values that are found in the selected template.
+
+### "Anchor" and "Wrap" settings
+choose which options will be pre-selected in the OLy editor window. Those settings only exist in Writer documents. 
+
+### Insert Images
+OLy knows two different methods to insert images into your document. Usually it works best to choose the option that is recommended for your Office version (LibreOffice or OpenOffice).
+
+### Keep Size & Crop Settings
+choose if this option in the OLy editor will be turned on or off by default.
+
 ## Appearance
 
 ### Language file
@@ -43,6 +63,18 @@ In addition, OLy will automatically look for include files in the folder where y
 
 The path where OLy looks for [language files](https://github.com/openlilylib/LO-ly/wiki/Config/_edit#language-file). Usually, there is no need to change the default setting. 
 
+### Template path
+
+The path where OLy looks for [templates](https://github.com/openlilylib/LO-ly/wiki/Introduction#templates). Again, there is no need to change the default setting. 
+
+### Ext. Editor Executable
+
+Here you can specify the executable file of an [external text editor](https://github.com/openlilylib/LO-ly/wiki/Introduction#easier-editing). With the "Select" button you can use a dialogue window from your OS to pick the right file. 
+
+For **Windows**, the complete path must be given. 
+
+For **Linux** and **Mac**, the name of the executable file without path should be sufficient. 
+
 ### External PDF to SVG conversion command
 
 As of Version 0.5.11, OLy supports calling an external PDF-to-SVG conversion software. Its command line can be configured here. 
@@ -53,7 +85,7 @@ A detailed explanation can be found in the [PDF to SVG section](https://github.c
 
 Here you should specify the executable file of your LilyPond installation. With the "Select" button you can use a dialogue window from your OS to pick the right file. 
 
-For **Linux** and **Mac**, a simple `lilypond` without path should be sufficient. 
+For **Linux** and **Mac**, a simple `lilypond` without path should be sufficient.
 
 On a **Windows** system, you need to specify `lilypond.exe` preceeded by its path (probably `C:\Program Files (x86)\LilyPond` on 64-bit Windows or `C:\Program Files\LilyPond` on 32-bit Windows systems). From there, proceed to the sub-folder `\usr\bin`.
 
@@ -97,7 +129,9 @@ Currently, OLy supports the following formats:
 This file format is used by default, because it works equally in LibreOffice and OpenOffice, on Windows, Linux or Mac. 
 No additional steps have to be taken before using it. 
 
-However, it's not the best choice with regard to image quality: [File formats - bitmap vs. vector](https://github.com/openlilylib/LO-ly/wiki/File-formats:-bitmap-vs.-vector#file-formats-bitmap-vs-vector)
+The **Resolution** for PNG images can be specified. The default value (300) should be usable. Increasing this value will raise image quality, but also the file size.
+
+However, PNG is not the best choice with regard to image quality: [File formats - bitmap vs. vector](https://github.com/openlilylib/LO-ly/wiki/File-formats:-bitmap-vs.-vector#file-formats-bitmap-vs-vector)
 
 ### EPS
 At the moment, EPS is the only vector format available for OpenOffice. LibreOffice cannot handle it. 
@@ -165,3 +199,10 @@ and the second part is just
 That's it. 
 
 If you know any other tools for that conversion task, I'd be happy to mention them here. (Inkscape cannot [yet?] be used herefor.)
+
+## Buttons
+### Restore Templates
+
+### Restore Language files
+### Reset to Default
+### OK
