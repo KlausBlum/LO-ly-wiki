@@ -10,6 +10,8 @@
 + [Templates](https://github.com/openlilylib/LO-ly/wiki/Introduction#templates)
 + [Easier editing](https://github.com/openlilylib/LO-ly/wiki/Introduction#easier-editing)
 
+### [Editor (main window reference)](https://github.com/openlilylib/LO-ly/wiki/Editor-(main-window-reference)#editor-main-window-reference)
+
 ### [**Configuration dialogue**](https://github.com/openlilylib/LO-ly/wiki/Config#configuration-dialogue)
 + [Appearance](https://github.com/openlilylib/LO-ly/wiki/Config#appearance)
     - [Language file](https://github.com/openlilylib/LO-ly/wiki/Config#language-file)
