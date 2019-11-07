@@ -45,6 +45,12 @@ The "**Default**" checkboxes below will get unmarked once you apply changes to t
 
 Here you can pre-configure how LibreOffice / OpenOffice will treat the resulting image inside your text document. These options are the same as those you can apply to existing images inside the text.
 
+## Keep Size & Crop Settings
+
+If you are editing an existing OLy object, this option makes OLy remember its dimensions and settings for eventually cropped edges. The same settings will be re-applied to the image after editing. 
+
+This option can be helpful when you use the SVG file format which requires [manual cropping](https://github.com/openlilylib/LO-ly/wiki/SVG-requirements#1-manual-cropping).
+
 ## Buttons at the bottom
 ### < (left arrow)
 ### > (right arrow)
