@@ -88,14 +88,14 @@ Inside the <code>paper{...}</code> section, there is a paragraph that has been p
 
 The command itself is enclosed in <em>block comment</em> signs <code>%{</code> and <code>%}</code>. Putting a simple blank space between <code>%</code> and <code>{</code> will turn the first into an ordinary comment, and the code between them will become visible for LilyPond:
 
-<pre class="lilypond"><span class="lilypond-comment comment">%<span style="background-color: #ffd2aa;"> </span>{
-</span><span class="scheme-scheme">#</span><span class="scheme-delimiter">(</span><span class="scheme-keyword keyword">define</span> <span class="scheme-scheme">fonts
+<pre class="lilypond"><b>% {</b>
+<span class="scheme-scheme">#</span><span class="scheme-delimiter">(</span><span class="scheme-keyword keyword">define</span> <span class="scheme-scheme">fonts
    </span><span class="scheme-delimiter">(</span><span class="scheme-function function">make-pango-font-tree
     </span><span class="scheme-string string">"TeXGyreSchola"           </span><span class="scheme-comment comment">; adjust this font name according to your needs
     </span><span class="scheme-string string">"TeXGyreHeros"            </span><span class="scheme-comment comment">; adjust this font name according to your needs
     </span><span class="scheme-string string">"TeXGyreCursor"           </span><span class="scheme-comment comment">; adjust this font name according to your needs
     </span><span class="scheme-delimiter">(</span><span class="scheme-keyword keyword">/</span> <span class="scheme-scheme">staff-height pt</span> <span class="scheme-number value">20</span><span class="scheme-delimiter">)))
-</span><span class="lilypond-comment comment">%}</span></pre>
+</span><b>%}</b></pre>
 
 Now save the template and repeat the procedure with the other <em>[SVG]</em> templates.
 
