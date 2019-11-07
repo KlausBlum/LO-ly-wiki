@@ -57,12 +57,13 @@ For **Linux** and **Mac**, a simple `lilypond` without path should be sufficient
 
 On a **Windows** system, you need to specify `lilypond.exe` preceeded by its path (probably `C:\Program Files (x86)\LilyPond` on 64-bit Windows or `C:\Program Files\LilyPond` on 32-bit Windows systems). From there, proceed to the sub-folder `\usr\bin`.
 
-### Ignore Warnings
+### Ignore messages from LilyPond
 
 If LilyPond reports errors or warnings during compilation, the OLy window will remain open and will display them. 
 
-By turning on this option, you can suppress warnings. Then, only messages will be shown if they are definitely recognized as errors. However, this also depends on your system language and therefore currently cannot be determined in a safe way. 
-**At the moment, it is recommended to leave this box unchecked.**
+By turning on this option, you can suppress those messages. Then, OLy will insert the resulting image (although it might not look as intended) into your Office document and close the OLy editor window.
+
+Only if no image could be created at all, this will be indicated by an error message.
 
 ## Format
 
