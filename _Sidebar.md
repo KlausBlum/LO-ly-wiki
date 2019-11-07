@@ -21,7 +21,7 @@
     - [Language file path](https://github.com/openlilylib/LO-ly/wiki/Config#language-file-path)
     - [Ext. PDF to SVG conv.](https://github.com/openlilylib/LO-ly/wiki/Config#external-pdf-to-svg-conversion-command)
     - [LilyPond Executable](https://github.com/openlilylib/LO-ly/wiki/Config#lilypond-executable)
-    - [Ignore warnings](https://github.com/openlilylib/LO-ly/wiki/Config#ignore-warnings)
+    - [Ignore messages from LilyPond](https://github.com/openlilylib/LO-ly/wiki/Config#ignore-messages-from-lilypond)
 + [Format](https://github.com/openlilylib/LO-ly/wiki/Config#format)
     - [PNG](https://github.com/openlilylib/LO-ly/wiki/Config#png)
     - [EPS](https://github.com/openlilylib/LO-ly/wiki/Config#eps)
