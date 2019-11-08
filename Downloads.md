@@ -4,10 +4,11 @@ All downloads including release notes can also be found on the [Release page](ht
 
 ## Download the latest version:
 
-* [OOoLilyPond 0.5.10](https://github.com/openlilylib/LO-ly/releases/download/0.5.10/OOoLilyPond-0.5.10.oxt)
+* [OOoLilyPond 0.5.11](https://github.com/openlilylib/LO-ly/releases/download/0.5.11/OOoLilyPond-0.5.11.oxt)
 
 ### Older Releases
 
+* [OOoLilyPond 0.5.10](https://github.com/openlilylib/LO-ly/releases/download/0.5.10/OOoLilyPond-0.5.10.oxt)
 * [OOoLilyPond 0.5.9](https://github.com/openlilylib/LO-ly/releases/download/0.5.9/OOoLilyPond-0.5.9.oxt)
 * [OOoLilyPond 0.5.8](https://github.com/openlilylib/LO-ly/releases/download/0.5.8/OOoLilyPond-0.5.8.oxt)
 * [OOoLilyPond 0.5.7](https://github.com/openlilylib/LO-ly/releases/download/0.5.7/OOoLilyPond-0.5.7.oxt)
