@@ -21,7 +21,7 @@ A new window will pop up:
 Of course, you need to have LilyPond installed on your system. In the "LilyPond Executable" field, you need to specify the executable file for LilyPond. On startup, OLy has tried to guess its correct (default) location. If that didn't work, you will have to correct it manually.
 
 For a Windows system, you need to know the program folder (probably <code>C:\Program Files (x86)\LilyPond</code> on 64-bit Windows or <code>C:\Program Files\LilyPond</code> on 32-bit Windows systems).
-In the subfolder <code>\usr\bin\</code> you will find the executable file <code>lilypond.exe</code>.
+In the subfolder <code>\usr\bin</code> you will find the executable file <code>lilypond.exe</code>.
 
 If you are working with Linux, relax and smile. Usually, you simply need to specify <code>lilypond</code> as command, without any path settings. As far as I know, that also applies for the Mac OS family which is based on Unix as well.
 
