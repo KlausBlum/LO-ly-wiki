@@ -138,7 +138,8 @@ At the moment, EPS is the only vector format available for OpenOffice. LibreOffi
 
 EPS images are printed correctly, but OpenOffice does not display them on screen. It's helpful to use PNG format at first. Once the musical snippets look as indended, they can be recompiled using the EPS format.
 
-EPS images also are missing in PDF export. At least on Windows, there is a workaround for that: Printing the document with a "print to pdf" driver leads to correct results. 
+EPS images also are missing in PDF export. At least on Windows, there is a workaround for that: Printing the document with a "print to pdf" driver leads to correct results. Those printer drivers create a PDF file instead of printing on paper. 
+Windows 10 has a built-in printer driver named _"Microsoft Print to PDF"_ that works well here. 
 
 ### SVG
 This file format is only supported by LibreOffice (and not by OpenOffice). 
