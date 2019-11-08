@@ -27,7 +27,7 @@ To keep up with that high quality, one would have to further increase png resolu
 
 LilyPond can produce various vector file formats: Apart from <code>.pdf</code>, certainly its most important format, also <code>.ps</code>, <code>.eps</code> and <code>.svg</code> are available. However, LibreOffice cannot handle all of them:
 
-<code>.eps</code> images can only be used in OpenOffice, with the further limitation that they are not visible on screen and in pdf output (at least, for Windows there's a workaround). In LibreOffice, they cannot be used at all.
+<code>.eps</code> images can only be used in OpenOffice, with the further limitation that they are not visible on screen and in pdf output (at least, for Windows [there's a workaround](https://github.com/openlilylib/LO-ly/wiki/Config#eps)). In LibreOffice, they cannot be used at all.
 Neither LibreOffice nor OpenOffice can import <code>.ps</code> files.
 
 ### Option 1: SVG
