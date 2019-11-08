@@ -1,5 +1,7 @@
 # Introduction
 
+
+
 <h2>Launching for the first time</h2>
 
 Here we go: Create a new Writer document and click the OLy button. 
@@ -52,23 +54,24 @@ To insert a new OLy object, just make sure that no existing object is selected w
 In the Editor window, you might have noticed that you were not presented an entire LilyPond file, but only an excerpt of it. This is because OLy always works with a template. It allows you to quickly enter short snippets while not having to care about any other settings for layout etc.
 
 The snippet you just created is based on the template <code>Default.ly</code> which looks (more or less) like this:
-<pre class="lilypond"><span class="lilypond-command function">\transpose</span> <span class="lilypond-comment comment" style="background-color: #ffd2aa;"><b>%{OOoLilyPondCustom1%}</b></span><span style="background-color: #fff5aa;">c c</span><span style="background-color: #fff5aa;">'</span><span class="lilypond-comment comment" style="background-color: #ffd2aa;"><b>%{OOoLilyPondEnd%}</b>
+
+<pre class="lilypond"><span class="lilypond-command function">\transpose</span> <b><span class="lilypond-comment comment" style="background-color: #ffd2aa;"><u>%{OOoLilyPondCustom1%}</u></span><span style="background-color: #fff5aa;">c c</span><span style="background-color: #fff5aa;">'</span><span class="lilypond-comment comment" style="background-color: #ffd2aa;"><u>%{OOoLilyPondEnd%}</u></b>
 </span><span class="lilypond-delimiter keyword">{
-  </span><span style="background-color: #ffd2aa;"><b>%{OOoLilyPondCode%}</b></span><span style="background-color: #fff5aa;">
+  </span><b><span style="background-color: #ffd2aa;"><u>%{OOoLilyPondCode%}</u></span><span style="background-color: #fff5aa;">
   \key </span><span style="background-color: #fff5aa;">e</span><span style="background-color: #fff5aa;"> \major 
   </span><span style="background-color: #fff5aa;">e</span><span style="background-color: #fff5aa;">8 </span><span style="background-color: #fff5aa;">fis gis e fis</span><span style="background-color: #fff5aa;">8 </span><span style="background-color: #fff5aa;">b</span><span style="background-color: #fff5aa;">,</span><span style="background-color: #fff5aa;">4. </span><span style="background-color: #fff5aa;">| 
   </span><span style="background-color: #fff5aa;">e</span><span style="background-color: #fff5aa;">2</span><span style="background-color: #fff5aa;">\fermata </span><span style="background-color: #fff5aa;">\bar </span><span style="background-color: #fff5aa;">"|."
-  </span><span style="background-color: #ffd2aa;"><b>%{OOoLilyPondEnd%}</b>
-</span><span class="lilypond-delimiter keyword">}
+  </span><span style="background-color: #ffd2aa;"><u>%{OOoLilyPondEnd%}</u>
+</span></b><span class="lilypond-delimiter keyword">}
 
 </span><span class="lilypond-keyword keyword">\include</span> <span class="lilypond-string string">"lilypond-book-preamble.ly"
-</span><span class="scheme-scheme">#</span><span class="scheme-delimiter">(</span><span class="scheme-function function">set-global-staff-size</span> <span style="background-color: #ffd2aa;"><b>%{OOoLilyPondStaffSize%}</b></span><span style="background-color: #fff5aa;">20</span><span style="background-color: #ffd2aa;"><b>%{OOoLilyPondEnd%}</b></span><span class="scheme-delimiter">)
+</span><span class="scheme-scheme">#</span><span class="scheme-delimiter">(</span><span class="scheme-function function">set-global-staff-size</span> <b><span style="background-color: #ffd2aa;"><u>%{OOoLilyPondStaffSize%}</u></span><span style="background-color: #fff5aa;">20</span><span style="background-color: #ffd2aa;"><u>%{OOoLilyPondEnd%}</u></span></b><span class="scheme-delimiter">)
 
 </span><span class="lilypond-keyword keyword">\paper</span> <span class="lilypond-delimiter keyword">{
   </span><span class="scheme-scheme">#</span><span class="scheme-delimiter">(</span><span class="scheme-keyword keyword">define</span> <span class="scheme-scheme">dump-extents #t</span><span class="scheme-delimiter">)
   </span><span class="lilypond-variable variable">ragged-right</span> = <span class="scheme-scheme">##t
-  </span><span class="lilypond-variable variable">line-width</span> = <span style="background-color: #ffd2aa;"><b>%{OOoLilyPondLineWidth%}</b></span><span style="background-color: #fff5aa;">17</span><span style="background-color: #fff5aa;">\cm</span><span style="background-color: #ffd2aa;"><b>%{OOoLilyPondEnd%}</b>
-</span><span class="lilypond-delimiter keyword">}
+  </span><span class="lilypond-variable variable">line-width</span> = <b><span style="background-color: #ffd2aa;"><u>%{OOoLilyPondLineWidth%}</u></span><span style="background-color: #fff5aa;">17</span><span style="background-color: #fff5aa;">\cm</span><span style="background-color: #ffd2aa;"><u>%{OOoLilyPondEnd%}</u>
+</span></b><span class="lilypond-delimiter keyword">}
 
 </span><span class="lilypond-keyword keyword">\layout</span> <span class="lilypond-delimiter keyword">{
   </span><span class="lilypond-variable variable">indent</span> = <span class="scheme-scheme">#</span><span class="scheme-number value">0
@@ -78,6 +81,7 @@ The snippet you just created is based on the template <code>Default.ly</code> wh
   </span><span class="lilypond-delimiter keyword">}
 }
 </span></pre>
+
 In the Editor window, there are five text fields: the big "Code" area on top, and four additional small fields named "Line Width", "Staff Size", "Custom 1" and "Custom 2". They contain the template parts that are enclosed by <em>tags</em>, i.e. preceeded by <code>%{OOoLilyPond<strong>Code</strong>%}</code>, <code>%{OOoLilyPond<strong>LineWidth</strong>%}</code>, <code>%{OOoLilyPond<strong>StaffSize</strong>%}</code>, <code>%{OOoLilyPond<strong>Custom1</strong>%}</code> and <code>%{OOoLilyPond<strong>Custom2</strong>%}</code> respectively, each terminated by <code>%{OOoLilyPond<strong>End</strong>%}</code>. (Those tags themselves are ignored by LilyPond because they are comments.)
 
 All remaining parts of the template stay "invisible" to the user and cannot be changed. Don't worry, you can modify existing templates and create your own.
