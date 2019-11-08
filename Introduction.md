@@ -1,7 +1,5 @@
 # Introduction
 
-
-
 <h2>Launching for the first time</h2>
 
 Here we go: Create a new Writer document and click the OLy button. 
@@ -110,3 +108,7 @@ A word of caution: Only changes to the <em>Code,</em> <em>Line Width</em>, <em>S
 
 A very last word of caution: If you use a template that is modified or created by yourself, and you share your Office document with other collaborators, you have to share your template as well.
 
+## Graphic file formats
+By default, OLy is pre-configured to produce PNG images, but there are more options for file formats. The basic difference between them is explained here: 
+
+[File formats: bitmap vs. vector](https://github.com/openlilylib/LO-ly/wiki/File-formats:-bitmap-vs.-vector#file-formats-bitmap-vs-vector)
