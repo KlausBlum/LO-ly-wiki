@@ -9,6 +9,7 @@
 + [How to work with OLy](https://github.com/openlilylib/LO-ly/wiki/Introduction#how-to-work-with-oly)
 + [Templates](https://github.com/openlilylib/LO-ly/wiki/Introduction#templates)
 + [Easier editing](https://github.com/openlilylib/LO-ly/wiki/Introduction#easier-editing)
++ [Graphic file formats](https://github.com/openlilylib/LO-ly/wiki/Introduction#graphic-file-formats)
 
 ### [Editor (main window reference)](https://github.com/openlilylib/LO-ly/wiki/Editor-(main-window-reference)#editor-main-window-reference)
 
