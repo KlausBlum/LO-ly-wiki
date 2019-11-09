@@ -6,7 +6,9 @@ Here we go: Create a new Writer document and click the OLy button.
  
 <a href="http://lilypondblog.org/wp-content/uploads/2017/03/OLy-Toolbar-01.gif"><img class="aligncenter size-full wp-image-4673" src="http://lilypondblog.org/wp-content/uploads/2017/03/OLy-Toolbar-01.gif" alt="OLy-Toolbar-01" width="181" height="118" /></a>
 
-(Don't worry if you get two message boxes telling you that some folders ("language" and "templates") have been created. Just click "OK" to close the message boxes. Next time they won't show up again.)
+At the very first launch you will get two message boxes telling you that some folders ("language" and "templates") have been created. Just click "OK" to close the message boxes. Next time they won't show up again.
+
+Also don't worry if one message box says that LilyPond could not be executed. Again, just click "OK". We'll fix that in a moment.
 
 Now you should see the OOoLilyPond Editor window.
 
@@ -18,12 +20,11 @@ A new window will pop up:
 
 <a href="http://lilypondblog.org/wp-content/uploads/2017/03/OLy-Config-Window-01.gif"><img class="aligncenter size-medium wp-image-4653" src="http://lilypondblog.org/wp-content/uploads/2017/03/OLy-Config-Window-01-300x297.gif" alt="OLy-Config-Window-01" width="300" height="297" /></a>
 
-Of course, you need to have LilyPond installed on your system. In the "LilyPond Executable" field, you need to specify the executable file for LilyPond. On startup, OLy has tried to guess its correct (default) location. If that didn't work, you will have to correct it manually.
+Of course, you need to have LilyPond installed on your system. In the "LilyPond Executable" field, you need to specify the executable file for LilyPond. On startup, OLy has tried to guess its correct (default) location. If that didn't work, you already got an error message. In that case, you will have to correct it manually.
 
-For a Windows system, you need to know the program folder (probably <code>C:\Program Files (x86)\LilyPond</code> on 64-bit Windows or <code>C:\Program Files\LilyPond</code> on 32-bit Windows systems).
-In the subfolder <code>\usr\bin</code> you will find the executable file <code>lilypond.exe</code>.
+* For a **Windows** system, you need to know the program folder (probably <code>C:\Program Files (x86)\LilyPond</code> on 64-bit Windows or <code>C:\Program Files\LilyPond</code> on 32-bit Windows systems). In the subfolder <code>\usr\bin</code> you will find the executable file <code>lilypond.exe</code>. If you have installed LilyPond to a different location, provide it here. The "Select" button launches a dialogue that helps you to pick the right file. 
 
-If you are working with Linux, relax and smile. Usually, you simply need to specify <code>lilypond</code> as command, without any path settings. As far as I know, that also applies for the Mac OS family which is based on Unix as well.
+* If you are working with **Linux**, relax and smile. Usually, you simply need to specify <code>lilypond</code> as command, without any path settings. As far as I know, that also applies for the **Mac OS** family which is based on Unix as well.
 
 On the left side, there are two frames titled "Insert Images". Depending on the Office version you are using (OpenOffice or LibreOffice), you should click the appropriate options.
 
