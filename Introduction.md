@@ -40,7 +40,7 @@ Now you are back in the main Editor window. It contains some sample code, so jus
 
 In the background, LilyPond is now translating the code into a <code>*.png</code> graphic file which will be inserted into Writer. The code itself is invisibly saved inside the document.
 
-After a few seconds, the editor window should disappear, and a newly created image should show up.
+After a few seconds, the editor window should disappear, and a newly created image should show up. (If you are running LilyPond for the very first time _or_ if you have installed or removed some fonts, it can take significally longer because LilyPond has to rebuild a _font cache_. Just have a little patience, this only applies to the first time.)
 
 If you want to modify an existing OLy object, click on it to select it in Writer. Then, hit the "OLy" button.
 
