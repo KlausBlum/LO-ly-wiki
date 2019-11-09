@@ -15,6 +15,8 @@ Now LibreOffice will have a new "OLy" toolbar. It contains a single "OLy" button
 
 <a href="http://lilypondblog.org/wp-content/uploads/2017/03/OLy-Toolbar-01.gif"><img class="aligncenter size-full wp-image-4673" src="http://lilypondblog.org/wp-content/uploads/2017/03/OLy-Toolbar-01.gif" alt="OLy-Toolbar-01" width="181" height="118" /></a>
 
+By the way: Please make sure that you have [LilyPond](http://www.lilypond.org/) installed on your Computer. ;-)
+
 Congratulations - you are now ready for the next chapter: [Introduction](https://github.com/openlilylib/LO-ly/wiki/Introduction#introduction).
 
 
