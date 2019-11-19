@@ -79,9 +79,14 @@ The snippet you just created is based on the template <code>Default.ly</code> wh
     </span><span class="lilypond-keyword keyword">\remove</span> <span class="lilypond-string string">"Bar_number_engraver"
   </span><span class="lilypond-delimiter keyword">}
 }
-</span></pre>
+</span>
+<b><span class="lilypond-comment comment" style="background-color: #ffd2aa;">% <u>%{OOoLilyPondCustom1Label%}</u></span><span style="background-color: #fff5aa;">Transpose:</span><span style="background-color: #fff5aa;"></span><span class="lilypond-comment comment" style="background-color: #ffd2aa;"><u>%{OOoLilyPondEnd%}</u></b>
+
+</pre>
 
 In the Editor window, there are five text fields: the big "Code" area on top, and four additional small fields named "Line Width", "Staff Size", "Custom 1" and "Custom 2". They contain the template parts that are enclosed by <em>tags</em>, i.e. preceeded by <code>%{OOoLilyPond<strong>Code</strong>%}</code>, <code>%{OOoLilyPond<strong>LineWidth</strong>%}</code>, <code>%{OOoLilyPond<strong>StaffSize</strong>%}</code>, <code>%{OOoLilyPond<strong>Custom1</strong>%}</code> and <code>%{OOoLilyPond<strong>Custom2</strong>%}</code> respectively, each terminated by <code>%{OOoLilyPond<strong>End</strong>%}</code>. (Those tags themselves are ignored by LilyPond because they are comments.)
+
+The last line changes the appearance of the editor window. It tells OLy to replace the "Custom 2" caption by "Transpose:". The comment (percent) sign at the beginning is necessary to keep the line invisible for LilyPond. As of version 0.5.12, OLy can use this mechanism to replace the caption of the _Line Width_, _Staff Size_, _Custom 1_ and _Custom 2_ Fields. Older OLy versions will simply ignore that.
 
 All remaining parts of the template stay "invisible" to the user and cannot be changed. Don't worry, you can modify existing templates and create your own.
 
