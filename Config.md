@@ -1,5 +1,3 @@
-This page is heavily under construction!  ;-)
-
 # Configuration dialogue
 
 This dialogue window offers the settings to customize OLy to your needs.
