@@ -57,7 +57,7 @@ For example, if I need to specify two paths <code>C:\Users\Klaus\Documents\MySco
 <code>-I"C:/Users/Klaus/Documents/MyScores/" -I"D:/MyLibrary/</code>
 (Note that LilyPond expects the paths to be written with forward slashes, even in Windows. Don't worry, if you use backward slashes, OLy will replace them for you.)
 
-In addition, OLy will automatically look for include files in the folder where your LibreOffice document is located.
+In addition, OLy will first look for include files in the folder where your LibreOffice document is located. This makes it easier to work with documents you have received from other users. No need to place their include files inside your own include folders. Just leave them in the same folder as the LibreOffice document.
 
 ### Language file path
 
@@ -66,6 +66,13 @@ The path where OLy looks for [language files](https://github.com/openlilylib/LO-
 ### Template path
 
 The path where OLy looks for [templates](https://github.com/openlilylib/LO-ly/wiki/Introduction#templates). Again, there is no need to change the default setting. 
+
+Like include files, templates received from other users can be placed in the folder of the containing Office document. When opening an OLy object, here is the first place where OLy looks for a matching template. 
+
+If no template with the right name is found there, OLy looks in the template folder specified above. `*.ly`files located here will be presented in the template list of the Editor window. All templates you need for creating new OLy objects should be placed here.
+
+In addition, if the template folder doesn't contain a matching file, OLy will search in its subfolder(s). 
+Templates in subfolders are recognized, but they won't be listed in the Editor window. If you have old templates that might still be used by some existing documents but not needed for creating new OLy objects, subfolders are a good place for them.
 
 ### Ext. Editor Executable
 
