@@ -36,6 +36,6 @@
     - [Reset to Default](https://github.com/openlilylib/LO-ly/wiki/Config#reset-to-default)
     - [OK](https://github.com/openlilylib/LO-ly/wiki/Config#ok)
 
-### [**File formats: bitmap vs. vector**](https://github.com/openlilylib/LO-ly/wiki/File-formats:-bitmap-vs.-vector#file-formats-bitmap-vs-vector)
+### [**File formats - bitmap vs. vector**](https://github.com/openlilylib/LO-ly/wiki/File-formats---bitmap-vs.-vector#file-formats-bitmap-vs-vector)
 
 ### [**SVG requirements**](https://github.com/openlilylib/LO-ly/wiki/SVG-requirements#svg-requirements)
