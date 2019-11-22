@@ -1,4 +1,4 @@
-# File formats: bitmap vs. vector
+# File formats - bitmap vs. vector
 
 OLy allows you to choose between different [file formats](https://github.com/openlilylib/LO-ly/wiki/Config#format). What reasons are there to switch from PNG files to another format? 
 
